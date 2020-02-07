@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+}
+body {
+    font-family: monospace, Arial;
+    text-align: left;
+    color:black;
+    
+}
+h1 {font-size: 22px;
+    margin-bottom: 15px;
+}
+h2, h3 {font-size: 21px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main-text {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.hauptbox {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;;
+    background-color: aqua;
+    
+}
+.nebeninfos {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: blue;
+    
+    
+}
+
+.autoren{
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: darkgoldenrod
+    
+    
+    
+}
