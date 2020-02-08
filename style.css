@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace, Arial;
+
     
     
     
 }
+
+
 
 .clearfix:after {
     content: "";
@@ -15,7 +19,6 @@
     
 }
 body {
-    font-family: monospace, Arial;
     text-align: left;
     color:black;
     
@@ -52,11 +55,61 @@ p {
     
 }
 
-.autoren{
+.Logo img {
+    width: 400px;
+    height: 100px;
     margin-right: 40px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.Autor1text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Autor1 {
+    padding-top: 20px;
     margin-left: 40px;
-    background-color: darkgoldenrod
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
     
+}
+
+
+.Autor1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left
     
+}
+
+
+
+.Autor2text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.Autor2 {
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 110px;
+    margin-bottom: auto;
+    
+}
+
+
+.Autor2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left
     
 }
