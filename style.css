@@ -35,32 +35,35 @@ p {
     margin-bottom: 10px;
 }
 .main-text {
-    font-size: 20px;
-    text-align: justify;
-    margin-bottom: 10px;
-    
+  
+    text-align: center;
+    padding:80px;
+    margin-right: 800px;
+    margin-left: 50px;
+    margin-top: 20px;;
+    background-color:cadetblue;
+    margin-bottom: 150px;
+   
 }
 .hauptbox {
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 40px;;
-    background-color: aqua;
+    text-align: center;
+    padding:80px;
+    margin-right: 800px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    background-color:cadetblue;
     
 }
-.nebeninfos {
-    margin-right: 40px;
-    margin-left: 40px;
-    background-color: blue;
-    
-    
-}
+
+
 
 .Logo img {
     width: 400px;
     height: 100px;
     margin-right: 40px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .Autor1text {
@@ -115,11 +118,14 @@ p {
 }
 .navbar{
  background-color:blanchedalmond;   
- height: 55px;   
+ height: 55px; 
+    position: fixed;
+    width: 100%;
     
     
 }
 .navlist{
+    margin-top: 5px;
   float: right;  
     
 }
