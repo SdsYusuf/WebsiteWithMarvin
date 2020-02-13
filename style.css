@@ -8,7 +8,7 @@
     
     
 }
-}
+
 
 
 .clearfix:after {
@@ -35,35 +35,32 @@ p {
     margin-bottom: 10px;
 }
 .main-text {
-  
-    text-align: center;
-    padding:80px;
-    margin-right: 800px;
-    margin-left: 50px;
-    margin-top: 20px;;
-    background-color:cadetblue;
-    margin-bottom: 150px;
-   
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    
 }
 .hauptbox {
-    text-align: center;
-    padding:80px;
-    margin-right: 800px;
-    margin-left: 50px;
-    margin-top: 20px;
-    
-    background-color:cadetblue;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;;
+    background-color: aqua;
     
 }
-
-
+.nebeninfos {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: blue;
+    
+    
+}
 
 .Logo img {
     width: 400px;
     height: 100px;
     margin-right: 40px;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .Autor1text {
@@ -116,6 +113,7 @@ p {
     float: left
     
 }
+
 .navbar{
  background-color:blanchedalmond;   
  height: 55px; 

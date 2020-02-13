@@ -1,0 +1,99 @@
+.Überuns img{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    
+    
+    
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.Autorenfotos {
+  float: left;
+  width: 40%;
+  padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Autorentext1 {
+    position: relative;
+    padding-left: 10%;
+    padding-right: 60%;
+    padding-bottom: auto;
+    padding-top: auto;
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Autorentext2{
+     position: relative;
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-bottom: auto;
+    padding-top: auto;
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.navbar{
+ background-color:blanchedalmond;   
+ height: 55px; 
+    position: fixed;
+    width: 100%;
+    
+    
+}
+.navlist{
+    margin-top: 5px;
+  float: right;  
+    
+}
+.navlist li{
+display: inline-block;
+
+
+
+}
+.navlist li a{
+ 
+color: lightslategray;
+ margin:0 20px;   
+ text-decoration: none;   
+    
+}
+.navlist li a:hover{
+ 
+color:darkred;
+    
+    
+    
+}
