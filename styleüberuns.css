@@ -31,34 +31,36 @@
   display: table;
 }
 
-.Autorentext1 {
+.Yusuftext {
     position: relative;
-    padding-left: 10%;
-    padding-right: 60%;
-    padding-bottom: auto;
-    padding-top: auto;
+    float: left;
     font-family: monospace;
     font-size: 18px;
     color: black;
+    text-align: justify;
+    display: inline;
+    padding: 10%;
+    margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
     margin-right: auto;
 }
 
-.Autorentext2{
-     position: relative;
-    padding-left: 60%;
-    padding-right: 10%;
-    padding-bottom: auto;
-    padding-top: auto;
+.Marvintext{
+    position: relative;
+    float: right;
     font-family: monospace;
     font-size: 18px;
     color: black;
+    text-align: justify;
+    display: inline;
+    padding: 10%;
+    margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
     margin-right: auto;
+
+    
 }
 
 

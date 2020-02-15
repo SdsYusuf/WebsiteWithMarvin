@@ -1,14 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-   
+    box-sizing: border-box;
     font-family: monospace, Arial;
     background:black;
-   font-size: 18px;
-   
-    color: white;
     
-}
 }
  .container{   
 width:90%;
@@ -18,7 +14,7 @@ width:90%;
 
 }
 .navbar{
-   width:100%;  
+   width:100%;
    overflow:hidden; 
     height:70px;
     line-height:70px;
@@ -83,46 +79,99 @@ width:90%;
     
     
 }
-
-h1 {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 25px;
-    margin-top: 1000px;
-    margin-right: 300px;
-    margin-left: 300px;
+body {
+    text-align: left;
+    color: white;
     
 }
- h2 {
-    text-align: center; 
-    font-size: 21px;
+h1 {font-size: 22px;
+    margin-bottom: 15px;
+}
+h2, h3 {font-size: 21px;
     margin-bottom: 10px;
-    margin-right: 300px;
-    margin-left: 300px;
 }
 
 p {
-    text-align: center;
-   
+    font-size: 20px;
     margin-bottom: 10px;
-    margin-right: 300px;
-    margin-left: 300px;
 }
-.unten{
-   margin-bottom: 300px; 
+.main-text {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
     
 }
+.hauptbox {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;;
+    background-color: aqua;
     
-
-
+}
+.nebeninfos {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: blue;
     
-
-  
- 
     
+}
+
+.Logo img {
+    width: 200px;
+    height: 50px;
+    margin-right: 400px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.Autor1text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Autor1 {
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+
+.Autor1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left
+    
+}
 
 
 
+.Autor2text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.Autor2 {
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 110px;
+    margin-bottom: auto;
+    
+}
 
 
+.Autor2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    
+}
 
