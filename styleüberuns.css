@@ -1,22 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-   
-    font-family: monospace, Arial;
-    background:black;
-   font-size: 18px;
-   
-    color: white;
-    
-}
-
-
-
-
-
-
-
-
 .Überuns img{
     margin-left: auto;
     margin-top: auto;
@@ -85,66 +66,36 @@
 
 
 
-
-
-
-
-
-
-.container{   
-width:90%;
-     margin: 0 auto;
-     
-
-
-
-}
 .navbar{
-   width:100%;  
-   overflow:hidden; 
-    height:70px;
-    line-height:70px;
-    background:white;
-    border-bottom: 2px solid aqua;
-    
+ background-color:blanchedalmond;   
+ height: 55px; 
+    position: fixed;
+    width: 100%;
     
     
 }
-.logo{
-    width:150px;
-    height: 40px;
-    margin-top:12px;
-    margin-left:70px;
-    float: left;
+.navlist{
+    margin-top: 5px;
+  float: right;  
     
 }
-.menu{
-    float: right;
-    
-    
-}
-.menu li{
-   float: left;
-    width: 120px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    
-    list-style:none;
-    background:white;
-    
-}
-.menu li a{
-   text-decoration: none;
-    color: black;
-    font-family: calibri;
-    text-transform: uppercase;
-   background:white;
-    
-    
-}
-.menu li a:hover{
-   color:gray; 
-    
-}
+.navlist li{
+display: inline-block;
 
+
+
+}
+.navlist li a{
+ 
+color: lightslategray;
+ margin:0 20px;   
+ text-decoration: none;   
+    
+}
+.navlist li a:hover{
+ 
+color:darkred;
+    
+    
+    
+}

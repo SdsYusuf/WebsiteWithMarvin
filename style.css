@@ -1,82 +1,74 @@
 *{
     margin: 0;
     padding: 0;
-   
     font-family: monospace, Arial;
-    background:black;
-   font-size: 18px;
-   
-    color: white;
+    background:white;
     
-}
-
 }
  .container{   
-width:90%;
+     width:100%;
      margin: 0 auto;
-     
-
-
-
 }
 .navbar{
-   width:100%;  
-   overflow:hidden; 
-    height:70px;
-    line-height:70px;
-    background:white;
-    border-bottom: 2px solid aqua;
-    
-    
-    
+    top: 0px;
+    width:100%;
+    height:90px;
+    background: white;
+    border-bottom: 3px solid aqua;
+    position: fixed;
+    z-index: 1;
+
 }
 .logo{
-    width:150px;
-    height: 40px;
-    margin-top:12px;
-    margin-left:70px;
+    position: absolute;
+    width:200px;
+    height: 50px;
+    margin-top:20px;
+    margin-left:10%;
     float: left;
-    
 }
 .menu{
+    position: relative;
+    margin-right:10%;
     float: right;
+    background: white;
+    margin-top:35px;
+    margin-bottom: 35px;
     
     
 }
 .menu li{
-   float: left;
-    width: 120px;
-    height: 70px;
-    line-height: 70px;
+    padding-left: 50px;
+    float: left;
+    line-height: 20px;
     text-align: center;
-    
     list-style:none;
-    background:white;
+    background: white;
     
 }
 .menu li a{
-   text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
     color: black;
-    font-family: calibri;
+    font-family: monospace;
     text-transform: uppercase;
-   background:white;
+    background: white;
     
     
 }
-.menu li a:hover{
-   color:gray; 
+.menu li a:link,
+.menu li a:visited{
+    color: black;
     
 }
 
-
-
-
-
-
-
-
-
-
+.menu li a:hover,
+.menu li a:active {
+    color: black;
+    padding-bottom: 17px;
+    border-bottom: 2px solid aqua;
+    transition: border-bottom 0.2s;
+}
 
 .clearfix:after {
     content: "";
@@ -86,56 +78,169 @@ width:90%;
     
 }
 
-h1,h2,h3,h4 {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 10px;
-    margin-top: 100px;
-    margin-right: 280px;
-    margin-left: 280px;
-    
+.slidershow{
+    position: relative;
+    margin-top: 92px;
+  width: 100%;
+  height: 600px;
+    overflow: visible;
+ 
+}
+.middle{
+    position: relative;
+}
+.navigation{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+    background-color: transparent;
+}
+.bar{
+  width: 8px;
+  height: 8px;
+  border: 2px solid aqua;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+     overflow: hidden;
+    border-radius: 50%;
+}
+.bar:hover{
+  background: aqua;
 }
 
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.4s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+
+body {
+    text-align: left;
+    color: black;
+    
+}
+h1 {font-size: 22px;
+    margin-bottom: 15px;
+}
+h2, h3 {font-size: 21px;
+    margin-bottom: 10px;
+}
 
 p {
-    text-align: center;
-   
+    font-size: 20px;
     margin-bottom: 10px;
-    margin-right: 280px;
-    margin-left: 280px;
+}
+.main-text {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.hauptbox {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;;
+    background-color: aqua;
+    
+}
+.nebeninfos {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: blue;
+    
+    
+}
+
+.Logo img {
+    width: 200px;
+    height: 50px;
+    margin-right: 400px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.Autor1text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Autor1 {
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
     
 }
 
 
+.Autor1 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left
     
+}
+
+
+
+.Autor2text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
     
-    
-.unten{
-   margin-bottom: 300px; 
+}
+
+.Autor2 {
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 110px;
+    margin-bottom: auto;
     
 }
 
 
-.preis{
-   text-align: center;
-   
-    margin-bottom: 40px;
-    margin-right: 280px;
-    margin-left: 280px;
-    
+.Autor2 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
     
 }
-    
-
-
-    
-
-  
- 
-    
-
-
-
-
-
 
