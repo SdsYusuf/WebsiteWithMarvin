@@ -78,12 +78,15 @@
     
 }
 
+.Fotoslider{
+        
+}
 .slidershow{
     position: relative;
     margin-top: 92px;
-  width: 100%;
-  height: 600px;
-    overflow: visible;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
  
 }
 .middle{
@@ -145,6 +148,24 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
   margin-left: -80%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.icons {
+  float: left;
+  width: 30%;
+  padding: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
